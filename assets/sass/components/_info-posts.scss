@@ -5,32 +5,33 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
+    
+    &__date {
+        font-size: 16px;
+    }
+    &__title {
+        width: 100%;
+        font-size: 20px;
+        font-weight: 700;
+    }
 
-.info-post__date {
-    font-size: 16px;
-}
-
-.info-post__title {
-    width: 100%;
-    font-size: 20px;
-    font-weight: 700;
+    &--populares {
+        width: 300px;
+        margin-top: 20px;
+    }
 }
 
 .info-post-author {
     display: flex;
-
+    &__image {
+        width: 30px;
+        height: 30px;
+        border-radius: 30px;
+        margin-right: 10px;
+    
+    }
+    
+    &__name {
+        align-self: center;
+    }    
 }
-
-.info-post-author__image {
-    width: 30px;
-    height: 30px;
-    border-radius: 30px;
-    margin-right: 10px;
-
-}
-
-.info-post-author__name {
-    align-self: center;
-}
-
