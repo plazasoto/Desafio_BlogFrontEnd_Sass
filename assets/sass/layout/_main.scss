@@ -1,9 +1,7 @@
 /* Main */
 
 .main {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
+    @include flex-center(row wrap,space-between);
 
     &__title {
         margin-bottom: 20px;

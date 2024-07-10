@@ -1,8 +1,7 @@
 /* Footer */
 
 .footer {
-    display: flex;
-    justify-content: space-between;
+    @include flex-center(row nowrap,space-between);
     margin-bottom: 30px;
 
     &__text {

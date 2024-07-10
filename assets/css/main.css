@@ -51,6 +51,7 @@
 /* Footer */
 .footer {
   display: flex;
+  flex-flow: row nowrap;
   justify-content: space-between;
   margin-bottom: 30px;
 }
@@ -225,6 +226,19 @@
 }
 .tag--bootstrap {
   background-color: #563D7C;
+}
+
+.subscription-box {
+  background-color: green;
+  border-radius: 10px;
+  margin: 10px;
+}
+.subscription-box__title {
+  color: white;
+  border-radius: 10px;
+}
+.subscription-box__input {
+  border-radius: 10px;
 }
 
 .separator {
