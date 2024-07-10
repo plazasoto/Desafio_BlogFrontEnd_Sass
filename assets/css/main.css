@@ -284,6 +284,28 @@
   font-weight: bold;
   text-decoration: none;
 }
+.form__pass-options {
+  width: 33%;
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.form__remember {
+  display: flex;
+  align-items: center;
+  /* 
+  justify-content: center;
+  */
+}
+.form__checkbox {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+.form__pass-reset {
+  text-decoration: none;
+}
 
 .separator {
   margin: 30px auto;

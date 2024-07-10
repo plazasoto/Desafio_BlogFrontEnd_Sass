@@ -17,4 +17,28 @@
         font-weight: bold;
         text-decoration: none;
     }
+
+    &__pass-options{
+        @include form-width;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__remember{
+        display: flex;
+        align-items: center; 
+        /* 
+        justify-content: center;
+        */
+    }
+
+    &__checkbox{
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+    }
+
+    &__pass-reset{
+        text-decoration: none;
+    }
 }
