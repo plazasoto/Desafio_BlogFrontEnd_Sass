@@ -1,15 +1,23 @@
 .subscription-box{
-
-    background-color: green;
+    @include background-verde;
     border-radius: 10px;
-    margin: 10px;
+    padding: 2% 10%;
+
+    /* display: flex;
+    justify-content: space-between; */
 
     &__title{
-        color: white;
+        width: 40%;
+        color: #fff;
         border-radius: 10px;
+        font-size: 28px;
+        font-weight: bold;
     }
 
     &__input{
         border-radius: 10px;
+        width: 40%;
+        font-size: 20px;
+        padding: 5px;
     }
 }

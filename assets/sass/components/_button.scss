@@ -1,23 +1,39 @@
+.button-container{
+    @include form-width();
+    text-decoration: none;
+} 
+
 .button{
     border-radius: 10px;
     border-color: transparent;
     display: block;
     font-weight: bold;
+    /*
     @include form-width();
+    */
+    width: 100%;
     font-size: 20px;
 
     &--sub{
-        background-color: gray;
+        @include background-gris;
+        /*
+        float: right;
+        */
         display: inline-block;
+        width: auto;
+        padding: 5px 40px;
     }
 
     &--green{
-        background-color: #63AF2B;
+        @include background-verde;
         color: white;
     }
 
     &--google{
         background-color: white;
         border-color: gray;
+        display: flex;
+        align-items: center; 
+        justify-content: center;
     }
 }

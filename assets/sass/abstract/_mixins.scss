@@ -9,3 +9,10 @@
     padding: 5px;
     margin: 5px;
 }
+
+@mixin background-verde(){
+    background-color: #729E2E;
+}
+@mixin background-gris(){
+    background-color: #CCCCCC;
+}
