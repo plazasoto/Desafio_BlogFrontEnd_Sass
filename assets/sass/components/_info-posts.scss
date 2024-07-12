@@ -8,6 +8,9 @@
     
     &__date {
         font-size: 16px;
+        &--inline {
+            display: inline;
+        }
     }
     &__title {
         width: 100%;

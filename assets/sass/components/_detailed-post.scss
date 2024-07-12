@@ -2,8 +2,50 @@
     margin-top: 3%;
     margin-bottom: 3%;
     &__body{
-        background-color: #EEEEEE;
+        background-color: $post-color;
         border-radius: 10px;
         padding: 3%;
+        padding-bottom: 6%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__image{
+        border-radius: 10px;
+        width: 50%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+
+    &__info{
+        display: flex;
+        align-items: center;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    &__date {
+        width: 100%;
+        font-size: 18px;
+    }
+    
+    &__title {
+        width: 100%;
+        margin-bottom: 10px;
+        font-size: 24px;
+    }
+    
+    &__author-image {
+        width: 40px;
+        height: 40px;
+        border-radius: 40px;
+    }
+    
+    &__author-name {
+        width: 250px;
+        align-self: center;
+        margin-left: 10px;
+        font-weight: 500;
+        font-size: 18px;
     }
 }
