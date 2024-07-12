@@ -30,13 +30,18 @@
       <main class="main">
         <h2 class="main__title">Novedades</h2>
         <article class="principal-post">
-          <img
-            src="assets/img/posts/bootstrap.png"
-            class="principal-post__image"
-          />
+          <a href="./post.html">
+            <img
+              src="assets/img/posts/bootstrap.png"
+              class="principal-post__image"
+            />
+          </a>
           <span class="principal-post__date">24 Noviembre, 2022</span>
+          
           <h3 class="principal-post__title">
-            Modifica el tema de Bootstrap con variables CSS
+            <a href="./post.html" class="principal-post__link">
+              Modifica el tema de Bootstrap con variables CSS
+            </a>
           </h3>
           <!-- El bloque autor (imagen y nombre) será un componente reutilizable, y sus tamaños se definen con modificadores -->
           <img
@@ -227,13 +232,13 @@
       </section>
 
       <section class="subscription-box">
-        <div></div>
-        <div></div>
         <h3 class="subscription-box__title">Mantente actualizado sobre el Desarrollo Front End</h3>
-        <input class="subscription-box__input" type="email">
-        <button class="button button--sub">
-          Suscríbete
-        </button>
+        <div class="subscription-box__input-box">
+          <input class="subscription-box__input" type="email">
+          <button class="button button--sub">
+            Suscríbete
+          </button>
+        </div>
       </section>
 
       <hr class="separator">

@@ -64,7 +64,7 @@
 .principal-post {
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
+  justify-content: flex-start;
   width: 700px;
 }
 .principal-post__image {
@@ -93,6 +93,9 @@
   margin-left: 10px;
   font-weight: 500;
   font-size: 18px;
+}
+.principal-post__link {
+  text-decoration: none;
 }
 
 /* Popular posts */
@@ -242,6 +245,11 @@
   font-size: 28px;
   font-weight: bold;
 }
+.subscription-box__input-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
 .subscription-box__input {
   border-radius: 10px;
   width: 40%;
@@ -269,9 +277,6 @@
 }
 .button--sub {
   background-color: #CCCCCC;
-  /*
-  float: right;
-  */
   display: inline-block;
   width: auto;
   padding: 5px 40px;
@@ -354,6 +359,10 @@
   border-radius: 10px;
 }
 
+.detailed-post {
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
 .detailed-post__body {
   background-color: #EEEEEE;
   border-radius: 10px;

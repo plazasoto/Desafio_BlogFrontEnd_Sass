@@ -1,7 +1,7 @@
 /* Principal Post */
 
 .principal-post {
-    @include flex-center(row wrap);
+    @include flex-center(row wrap, flex-start);
     width: 700px;
 
     &__image {
@@ -34,5 +34,9 @@
         margin-left: 10px;
         font-weight: 500;
         font-size: 18px;
+    }
+
+    &__link{
+        text-decoration: none;
     }
 }

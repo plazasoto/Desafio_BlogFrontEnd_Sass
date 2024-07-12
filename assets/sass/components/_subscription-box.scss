@@ -14,6 +14,12 @@
         font-weight: bold;
     }
 
+    &__input-box{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
     &__input{
         border-radius: 10px;
         width: 40%;
